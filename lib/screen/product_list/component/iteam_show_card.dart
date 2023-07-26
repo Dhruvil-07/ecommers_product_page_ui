@@ -26,7 +26,7 @@ class iteam_show_card extends StatelessWidget {
          );
       },
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
           children: [
 
             //product image

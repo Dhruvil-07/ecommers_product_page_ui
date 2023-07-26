@@ -36,17 +36,12 @@ class category_iteam extends StatelessWidget {
             color: backgroundcolor,
           ),
           alignment: Alignment.center,
-          width: 100.w,
+          width: 80.sp,
           child: Center(
-            child: Padding(
-              padding: EdgeInsets.symmetric(
-                vertical: 1.h
-              ),
-              child: cario_text(
+            child: cario_text(
                 containt: category_name,
-                fontsize: screen_size ? 16.spMin : 24.spMin,
+                fontsize: screen_size ? 12.sp : 12.sp,
               ),
-            ),
           ),
         ),
       ),

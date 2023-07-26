@@ -87,7 +87,7 @@ class _product_listState extends State<product_list> {
 
             //scoleble category list
             SizedBox(
-              height: screen_size ? 54.h : 64.h ,
+              height: screen_size ? 54.sp : 32.sp,
               child: ListView.builder(
                 shrinkWrap: true,
                 scrollDirection: Axis.horizontal,
