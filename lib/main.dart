@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:produc_list_and_product_dtl_ui/screen/product_detail/product_detail.dart';
-import 'package:produc_list_and_product_dtl_ui/screen/product_list/product_list.dart';
+import 'package:produc_list_and_product_dtl_ui/view/product_list/product_list_page.dart';
 
 void main()
 {
-   /*WidgetsFlutterBinding.ensureInitialized();
+   WidgetsFlutterBinding.ensureInitialized();
    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
-   .then((value){   }); */
-
-   runApp(my_product());
+   .then((value){  runApp(my_product());  });
 }
 
 class my_product extends StatelessWidget {
