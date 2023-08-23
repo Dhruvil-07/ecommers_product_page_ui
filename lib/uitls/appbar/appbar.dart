@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+import 'package:produc_list_and_product_dtl_ui/view/cart/cart.dart';
 
-PreferredSizeWidget appbar({required String title , required Color color, required Color appbarcolor} ) {
+PreferredSizeWidget appbar({required String title , required Color color, required Color appbarcolor  , required BuildContext ctx} ) {
   return AppBar(
     backgroundColor: appbarcolor,
     elevation: 0.0,
@@ -19,7 +21,9 @@ PreferredSizeWidget appbar({required String title , required Color color, requir
       ),
 
       IconButton(
-        onPressed: (){},
+        onPressed: (){
+          Navigator.push(ctx, MaterialPageRoute(builder: (ctx)=>cart()));
+        },
         icon: Icon(Icons.shopping_cart, color: color, size : 20.spMin),
       ),
 
